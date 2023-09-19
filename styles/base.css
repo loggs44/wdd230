@@ -57,6 +57,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    border-bottom: #000000 2pt solid;
+}
+
 h3 {
     color: white;
     background-color: #27374D;
