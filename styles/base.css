@@ -7,11 +7,12 @@ body {
 }
 
 header { 
-    display: flex; 
+    display: flex;
+    align-items: center; 
     justify-content: center;
     background-color: #27374D;
     padding: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -21,12 +22,16 @@ nav {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 25px;
     line-height: 35px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 footer {
@@ -37,14 +42,22 @@ footer {
 }
 
 .card {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr;
     background-color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     border: #000000;
     border-radius: 10px;
     margin: 10px;
+    text-align: center;
+}
+
+.information {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: #000000;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5rem;
 }
 
 .card p {
@@ -55,10 +68,12 @@ footer {
 h1 {
     padding-top: 30px;
     color: white;
+    font-size: 2rem;
 }
 
 h2 {
     border-bottom: #000000 2pt solid;
+    text-align: center;
 }
 
 h3 {
@@ -80,41 +95,56 @@ footer p {
 }
 
 img {
-    max-width: 10%;
-    max-height: 50%;
+    max-width: 5rem;
     margin-right: 10px;
+    border-radius: 3%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     padding: 10px;
-    list-style-type: none;
-    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-ul li {
+nav li {
     margin-bottom: 10px;
+    display: block;
+    width: 100%;
 }
 
-ul a {
-    color: #526D82;
+nav a {
+    color: #000000;
     text-decoration: none;
     transition: color 0.2s;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
 }
 
-ul a:hover {
-    color: #27374D;
+nav a:hover {
+    color: gray;
+    border: 1px solid gray;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 10px;
 }
 
 .card ul li {
     margin-left: 20px;
+    margin-bottom: 10px;
     text-align: left;
 }
 
 .card ul a {
     color: #000000;
+    text-decoration: none;
 }
 
 .card ul a:hover {
-    color: #304C89;
+    color: darkblue;
 }
