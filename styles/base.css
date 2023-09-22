@@ -57,12 +57,11 @@ footer {
     border-radius: 10px;
     margin: 10px;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
-.card p {
-    color: #000000;
-    line-height: 40px;
+.information p {
+    font-size: 1rem;
 }
 
 h1 {
