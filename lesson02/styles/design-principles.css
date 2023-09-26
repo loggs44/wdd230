@@ -1,7 +1,11 @@
 body{
     margin: 0 auto;
     max-width: 1000px;
-    background-color: lightslategrey
+    background-color: lightslategrey;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Mooli', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header section{
@@ -22,7 +26,7 @@ main section{
 
 main section p{
     padding: 1rem;
-	color: white;    
+	color: black;    
 }
 
 main section h3{
@@ -47,7 +51,7 @@ footer p {
 }
 
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
