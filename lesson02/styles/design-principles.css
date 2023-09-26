@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    /* max-width: 800px;  */
+    max-width: 1000px;
     background-color: lightslategrey
 }
 
@@ -89,11 +89,18 @@ img {
     }
 
     .section3 img{
-        width: 84%;
+        width: 80%;
+		height: 46rem;
     }
 
-	.section3 .description {
+	/* .section3 .description {
 		padding-top: 7.5rem;
-	}
+	} */
 
+}
+
+@media screen and (min-width: 1440px){
+	.section3 img {
+		width: 18rem;
+	}
 }
