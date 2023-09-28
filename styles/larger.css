@@ -1,5 +1,8 @@
+/* Large CSS */
 @media (min-width: 800px) {
-	nav ul {
+	
+    /* Nav Large View CSS */
+    nav ul {
 		flex-direction: row;
 	}
 	nav ul li {
@@ -7,6 +10,7 @@
         margin-bottom: 0;
 	}
 
+    /* Main Large View CSS */
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -24,11 +28,13 @@
         grid-column: 1/3;
     }
 
+    /* Google Map Large View CSS */
     #google-map {
         width: 800px;
         grid-column: 1/3;
     }
 
+    /* Hamburger Menu Hide CSS */
     .menu-show, .menu-hide, .menu-show.showing, .menu-hide.showing{
         display: none;
     }    
