@@ -1,0 +1,17 @@
+    /* Main Large View CSS */
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    main .card {
+        margin: 1rem 0.5rem;
+    }
+
+    main .information {
+        text-align: center;
+    }
+
+    main h2 {
+        grid-column: 1/3;
+    }
