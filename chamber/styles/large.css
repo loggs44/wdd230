@@ -30,7 +30,16 @@
         padding-top: 5rem;
     }
 
-    #cards {
+    #main-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #main-cards p {
+        padding: 1rem;
+    }
+
+    #sub-cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
