@@ -11,7 +11,7 @@
 		flex-direction: row;
 	}
 
-        .menu-show, .menu-hide, .menu-show.showing, .menu-hide.showing{
+    .menu-show, .menu-hide, .menu-show.showing, .menu-hide.showing{
         display: none;
     }    
 
@@ -33,5 +33,17 @@
     #cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #join-button {
+        position: relative;
+        top: -5rem;
+        left: 14rem;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
     }
 }
