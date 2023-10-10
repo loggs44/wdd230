@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+}
+
+header { 
+    align-items: center; 
+    justify-content: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #27374D;
+    border: 1px solid white;
+}
+
+.menu-hide, .menu-show{
+    display: none;
+    background-color: #DDE6ED;
+    border: 1px solid black;
+}
+
+.menu-hide.showing, .menu-show.showing{
+    display: block;
+    grid-row: 1/3;
+}
+
+#nav-menu{
+    display: none;
+}
+
+#nav-menu.showing{
+    display: flex;
+}
+
+#header-logo {
+    grid-column: 2/3;
+}
+
+#origin-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+#new-members-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+#weekly-resturaunt-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+#job-board-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
