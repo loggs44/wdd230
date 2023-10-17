@@ -1,5 +1,15 @@
+:root{
+    --text-color: black;
+    --background-color: #A3CEF1;
+    --hover-background-color: #27374D;    
+    --hover-color: #E7ECEF;
+}
+
 body {
     margin: 0 auto;
+    background-color: #A3CEF1;
+    color: var(--text-color);
+    
 }
 
 header { 
@@ -10,22 +20,19 @@ header {
 
 nav {
     text-align: center;
-    padding: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 25px;
     line-height: 35px;
-    max-width: 800px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: var(--hover-background-color);
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 footer {
@@ -36,6 +43,10 @@ footer {
 hr {
     border: 1px solid black;
     margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #E7ECEF;
 }
 
 nav ul {
@@ -60,11 +71,12 @@ nav a {
     text-align: center;
     padding: 1rem;
     font-size: 1.3rem;
+    color: var(--hover-color);
 }
 
 nav a:hover {
     color: white;
-    background-color: #27374D;
+    background-color: var(--hover-background-color);
     border: 1px solid white;
 }
 
@@ -87,51 +99,130 @@ nav a:hover {
     display: flex;
 }
 
+button{
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+#dark-mode {
+    position:absolute;
+    top: 1rem;
+    right: 2rem; 
+    background-color: var(--background-color);
+}
+
 #header-logo {
     grid-column: 2/3;
+    width: 15rem;
+}
+
+#origin-card, #new-members-card, #weekly-resturaunt-card, #job-board-card{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    background-color: #8B8C89;
+}
+
+#welcome-card {
+    border: #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: #8B8C89;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#welcome-card img {
+    max-width: 100%;
+}
+
+
+#mission-statement-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: #000000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;    
+}
+
+#mission-statement-card h3 {
+    border-bottom: #000000 2pt solid;
+    text-align: center;
+    background-color: #8B8C89;
+    margin: 0;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#mission-statement-card p {
+    padding-bottom: 10px;
+}
+
+#main-cards h3 {
+    border-bottom: #000000 2pt solid;
+    text-align: center;
+    background-color: #8B8C89;
+    margin: 0;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #weather {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: #000000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px; 
 }
 
 #upcoming-events-card {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: #000000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px; 
 }
 
-#origin-card {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 50px;
+#sponsers-card {
+    border: #000000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px; 
 }
 
-#new-members-card {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 50px;
+#sponsers-card h2 {
+    text-align: center;
+    background-color: #8B8C89;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-#weekly-resturaunt-card {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 50px;
+#sponsers-card img {
+    max-height: 60%;
+    width: 80%;
+    padding-top: 5px;
 }
 
-#job-board-card {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 50px;
-}
-
-#welcome-card {
-    position: relative;
-    display: inline-block;
-}
 
 #join-button {
     position: relative;
     top: -5rem;
     left: 14rem;
-    transform: translate(-50%, -50%);
+    transform: translate(-210%, 440%);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
+}
+
+footer {
+    background-color: #274C77;
 }

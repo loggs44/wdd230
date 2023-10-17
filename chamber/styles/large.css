@@ -1,10 +1,10 @@
 /* Large CSS */
-@media (min-width: 768px) {
+@media (min-width: 970px) {
 	
     /* Nav Large View CSS */
     nav {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 0.5fr 2fr;
     }
 
     #nav-menu {
@@ -27,12 +27,18 @@
     #nav-menu {
         grid-column: 2/3;
         grid-row: 1/3;
-        padding-top: 5rem;
+        padding-top: 3.5rem;
+    }
+
+    #welcome-card img {
+        border-style: none;
+        padding-right: 7rem;
     }
 
     #main-cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
     }
 
     #main-cards p {
@@ -42,13 +48,14 @@
     #sub-cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
 
     #join-button {
         position: relative;
         top: -5rem;
         left: 14rem;
-        transform: translate(-50%, -50%);
+        transform: translate(-215%, 675%);
         padding: 10px 20px;
         border: none;
         cursor: pointer;
