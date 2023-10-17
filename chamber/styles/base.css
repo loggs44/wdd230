@@ -225,6 +225,6 @@ h1 {
 }
 
 footer {
-    background-color: #274C77;
+    background-color: var(--hover-background-color);
     color: white;
 }
