@@ -18,6 +18,7 @@
     <script src="scripts/hamburger-menu.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -45,9 +46,15 @@
         </section>
         <div id="main-cards">
             <section id="weather">
-                <h3>Weather Card</h3>
-                <p>Rexburg, Idaho</p>
-                <p>53F - Cloudy</p>
+                <h3>Weather</h3>
+                <div>
+                    <img id="weathericon" src="images/Weather-clear.svg">
+                    <h2><span id="temperature">32</span>&deg;F</h2>
+                </div>
+                <h2 id="weatherdesc">Clear</h2>
+                <hr>
+                <h4>Wind Speed: <span id="windspeed">10</span> mph</h4>
+                <h4>Wind Chill: <span id="windchill">?</span>&deg;F</h4>
             </section>
             <section id="upcoming-events-card">
                 <h3>Upcoming Events</h3>

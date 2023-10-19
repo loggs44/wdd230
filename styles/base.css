@@ -70,11 +70,11 @@ h3 {
 }
 
 /* Image CSS */
-h1, img {
+header h1, header img {
     margin: 0 10px;
 }
 
-img {
+header img {
     max-width: 5rem;
     margin-right: 10px;
     border-radius: 3%;
@@ -184,4 +184,20 @@ nav a:hover {
 
 #nav-menu.showing{
     display: flex;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
