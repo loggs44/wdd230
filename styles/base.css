@@ -196,8 +196,9 @@ nav a:hover {
     object-fit: cover;
 }
 
-.hero h1 {
+.hero h4 {
     position: absolute;
     top: 15px;
     left: 15px;
+    color: white;
 }
