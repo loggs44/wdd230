@@ -62,4 +62,19 @@
         border-radius: 5px;
         font-size: 16px;
     }
+    #discover-sidebar{
+        border-right: 5px solid var(--hover-background-color);
+        padding: 1rem;
+    }
+
+    #discover-images{
+        padding-left: 1rem;
+    }
+
+    #discover-images img:hover {box-shadow: 0 0 50px #333;}
+
+    #discover-main{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
 }

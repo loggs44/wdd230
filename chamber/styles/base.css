@@ -228,3 +228,19 @@ footer {
     background-color: var(--hover-background-color);
     color: white;
 }
+
+/* Discover Main CSS */
+#discover-main{
+    display: block;
+}
+
+#discover-images{
+    text-align: center;
+}
+
+#discover-demographics, #discover-message{
+    border: 1px solid black;    
+    padding: 1rem;
+    margin: 1rem 0;
+
+}
