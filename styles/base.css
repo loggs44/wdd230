@@ -202,3 +202,63 @@ nav a:hover {
     left: 15px;
     color: white;
 }
+
+/* Form Stuff */
+#form-main label{
+    display: block;
+    margin: 1rem 0;
+}
+
+#form-main input{
+    display: block;    
+}
+
+#form-main form{
+    margin: 0 auto;    
+    width: 600px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    width: 300px;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+#form-main button{
+    font-size: 2rem;
+    padding: .5rem;
+    background-color: #27374D;
+    margin: 1rem 0;
+}
+
+#rating {
+    width: 300px;
+    box-shadow: none;
+}
+
+#rangevalues {
+    display: flex;    
+    width: 320px;
+}
+
+#rangevalues option {
+    flex: 1;
+}
+
+#message{
+    background-color: white;
+    color: #27374D;
+    padding: .5rem;
+    display: block;
+}
+
+input:invalid{
+    box-shadow: 2px 2px 2px #27374D;
+}
+
+input:valid{
+    box-shadow: 2px 2px 2px black;
+}
+
+#form-main h2{
+    text-align: center;
+}
