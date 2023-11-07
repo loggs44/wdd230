@@ -203,14 +203,19 @@ nav a:hover {
     color: white;
 }
 
-/* Form Stuff */
+/* Form CSS */
+#form-main {
+    padding-left: 6rem;
+}
+
 #form-main label{
     display: block;
     margin: 1rem 0;
+    text-align: left;
 }
 
 #form-main input{
-    display: block;    
+    display: block;   
 }
 
 #form-main form{
@@ -227,6 +232,7 @@ input[type="text"], input[type="password"], input[type="email"]{
     font-size: 2rem;
     padding: .5rem;
     background-color: #27374D;
+    color: white;
     margin: 1rem 0;
 }
 
@@ -261,4 +267,9 @@ input:valid{
 
 #form-main h2{
     text-align: center;
+}
+
+#record-message h4 {
+    text-align: center;
+    grid-column: span 2;
 }
