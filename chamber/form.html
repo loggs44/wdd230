@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Brooke Chamber of Commerce</title>
+    <meta name="description" content="Discover the Story Brooke Chamber of Commerce - Your gateway to local business support, networking, and community growth. Join us to connect, prosper, and thrive in Story Brooke.">
+    <meta name="author" content="Logan Clark">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Logan Clark-WDD 230-Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://loggs44.github.io/wdd230/">
+    <meta property="og:image" content="https://loggs44.github.io/wdd230/images/profilepicture.JPG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="header-logo" src="images/logo.webp" alt="Chamber Logo">
+            <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+            <ul id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+            <div><button id='dark-mode'>DARK</button></div>
+        </nav>
+    </header>
+    <main id="join-main">
+        <section class="join">
+            <div>
+                <form method="GET" action="thankyou.html">
+                    <label class="myinput">First Name*<input type="text" name="fname" required></label>
+                    <label class="myinput">Last Name*<input type="text" name="lname" required></label>
+                    <label class="myinput">Title<input type="text" name="title" pattern="[A-Za-z -]{7,}"></label>
+                    <label class="myinput">Email*<input type="email" name="email" required></label>
+                    <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required></label>
+                    <label class="myinput">Business Name*<input type="text" name="bizname" required></label>
+                    <h3 class="membership">Membership Level</h3>
+                    <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
+                    <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
+                    <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
+                    <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
+                    <label class="myinput">Business Description<textarea name="description" cols="40"
+                            rows="5"></textarea></label>
+                    <label><input id="currentdate" type="hidden" name="currentdate" value=""></label>
+                    <input class="mysubmit" type="submit" value="Join the Chamber!">
+                </form>
+            </div>
+            <div>
+                <h2>Membership Levels Benefits</h2>
+                <h3>NP Membership</h3>
+                <ul>
+                    <li>For non profit organizations and there is no fee</li>
+                </ul>
+                <h3>Bronze Membership</h3>
+                <ul>
+                    <li>15% discount on events</li>
+                    <li>10% discount on advertising</li>
+                    <li>Fee of $50/month</li>
+                </ul>
+
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>25% discount on events</li>
+                    <li>15% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>Fee of $100/month</li>
+                </ul>
+
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>5 free featured ads per year</li>
+                    <li>1 free training per quarter</li>
+                    <li>Fee of $250/month</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="contact">
+            Contact Info:
+            <br>
+            Phone: (225) 453-1900
+            <br>
+            Email: sbchamber@gmail.com
+        </p>
+        <p id="copywrite">
+            &copy;<span id='currentyear'></span> | Logan J. Clark | WDD 230 | Last Modified: <span id='lastmodified'></span>
+          </p> 
+    </footer>
+</body>
+</html>
