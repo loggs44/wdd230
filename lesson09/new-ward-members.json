@@ -1,0 +1,25 @@
+{"moveIns":
+[{
+    "name":"Clarks",
+    "moveInDate":"2022/08/01",
+    "familySize":3,
+    "visited":false,
+    "members":[
+        {
+            "name":"Logan",
+            "gender":"M",
+            "birthdate":"2000/25/06"
+        },
+        {
+            "name":"Shaylee",
+            "gender":"F",
+            "birthdate":"2001/14/08"
+        },
+        {
+            "name":"Ember",
+            "gender":"F",
+            "birthdate":"2022/09/01"
+        }
+    ]
+}]
+}

@@ -245,9 +245,11 @@ footer {
 
 }
 
+/* Form CSS */
 .join{
     display: grid;    
-    grid-template-columns: .5fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); */
   }
 
   .join > div{
@@ -269,8 +271,8 @@ label.myinput{
     display:block;
     font-size: 1.2rem;
     padding: .5rem;
-    width: 20rem;
-    max-width: 20rem;
+    width: 10rem;
+    max-width: 10rem;
   }
   
   label.myradio{
@@ -280,7 +282,8 @@ label.myinput{
     padding-top: .5rem;
     text-align: left;
   }
-  .Membership {
+
+  .membership {
     text-align: left;
   }
   

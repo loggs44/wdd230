@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+
+.card {
+    border: 1px black solid;
+    text-align: center;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+.card img {
+    width: 200px;
+}
