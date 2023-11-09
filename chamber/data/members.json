@@ -1,0 +1,67 @@
+{
+    "members":[
+        {
+            "name":"Action Motor Sports",
+            "streetAddress":"1355 E. Lincoln Road",
+            "cityStateZip":"Story Brooke, ID 83401",
+            "phonenumber":"(208) 522-3050",
+            "websiteURL":"https://www.actionmotor.com/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"American Red Cross",
+            "streetAddress":"1165 E 17th Street",
+            "cityStateZip":"Story Brooke, ID 83404",
+            "phonenumber":"(800) 733-2767",
+            "websiteURL":"https://www.redcrossblood.org/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Floral Art",
+            "streetAddress":"1568 W Broadway",
+            "cityStateZip":"Story Brooke, ID 83402",
+            "phonenumber":"(208) 529-4887",
+            "websiteURL":"https://www.idahofallsfloralartflorist.com/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Deseret Industries",
+            "streetAddress":"2885 E. 17th Street",
+            "cityStateZip":"Story Brooke, ID 83406",
+            "phonenumber":"(208) 524-3300",
+            "websiteURL":"https://www.deseretindustries.org/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Pinecrest Golf",
+            "streetAddress":"701 E. Elva",
+            "cityStateZip":"Story Brooke, ID 83401",
+            "phonenumber":"(208) 612-8485",
+            "websiteURL":"https://golfif.com/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Zagg",
+            "streetAddress":"2658 E Sunnyside Rd",
+            "cityStateZip":"Story Brooke, ID 83406",
+            "phonenumber":"(490) 406-5104",
+            "websiteURL":"https://www.zagg.com/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Play It Again Sports",
+            "streetAddress":"557 S Woodruff Ave",
+            "cityStateZip":"Story Brooke, ID 83401",
+            "phonenumber":"(208) 524-0500",
+            "websiteURL":"https://www.playitagainsports.com/",
+            "imageURL":"images/example.jpg",
+            "membershipLevel":"gold"
+        }
+    ]
+}
