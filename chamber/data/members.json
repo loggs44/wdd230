@@ -6,7 +6,7 @@
             "cityStateZip":"Story Brooke, ID 83401",
             "phonenumber":"(208) 522-3050",
             "websiteURL":"https://www.actionmotor.com/",
-            "imageURL":"images/example.jpg",
+            "imageURL":"images/actionmotorsports.webp",
             "membershipLevel":"gold"
         },
         {
@@ -15,8 +15,8 @@
             "cityStateZip":"Story Brooke, ID 83404",
             "phonenumber":"(800) 733-2767",
             "websiteURL":"https://www.redcrossblood.org/",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
+            "imageURL":"images/AmericanRedCross.webp",
+            "membershipLevel":"silver"
         },
         {
             "name":"Floral Art",
@@ -24,8 +24,8 @@
             "cityStateZip":"Story Brooke, ID 83402",
             "phonenumber":"(208) 529-4887",
             "websiteURL":"https://www.idahofallsfloralartflorist.com/",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
+            "imageURL":"images/FloralArt.webp",
+            "membershipLevel":"bronze"
         },
         {
             "name":"Deseret Industries",
@@ -33,8 +33,8 @@
             "cityStateZip":"Story Brooke, ID 83406",
             "phonenumber":"(208) 524-3300",
             "websiteURL":"https://www.deseretindustries.org/",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
+            "imageURL":"images/DeseretIndustries.webp",
+            "membershipLevel":"bronze"
         },
         {
             "name":"Pinecrest Golf",
@@ -42,7 +42,7 @@
             "cityStateZip":"Story Brooke, ID 83401",
             "phonenumber":"(208) 612-8485",
             "websiteURL":"https://golfif.com/",
-            "imageURL":"images/example.jpg",
+            "imageURL":"images/PinecrestGolf.webp",
             "membershipLevel":"gold"
         },
         {
@@ -51,7 +51,7 @@
             "cityStateZip":"Story Brooke, ID 83406",
             "phonenumber":"(490) 406-5104",
             "websiteURL":"https://www.zagg.com/",
-            "imageURL":"images/example.jpg",
+            "imageURL":"images/Zagg.webp",
             "membershipLevel":"gold"
         },
         {
@@ -60,8 +60,8 @@
             "cityStateZip":"Story Brooke, ID 83401",
             "phonenumber":"(208) 524-0500",
             "websiteURL":"https://www.playitagainsports.com/",
-            "imageURL":"images/example.jpg",
-            "membershipLevel":"gold"
+            "imageURL":"images/PlayItAgainSports.webp",
+            "membershipLevel":"silver"
         }
     ]
 }
