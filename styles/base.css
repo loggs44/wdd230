@@ -1,3 +1,10 @@
+:root {
+    --background-color: white;
+    --valid-shadow: 2px 2px 2px black;
+    --invalid-shadow: 2px 2px 2px #27374D;
+    --text-align: center;
+}
+
 /* Base CSS */
 body {
     max-width: 800px;
@@ -251,25 +258,25 @@ input[type="text"], input[type="password"], input[type="email"]{
 }
 
 #message{
-    background-color: white;
+    background-color: var(--background-color);
     color: #27374D;
     padding: .5rem;
     display: block;
 }
 
 input:invalid{
-    box-shadow: 2px 2px 2px #27374D;
+    box-shadow: var(--invalid-shadow);
 }
 
 input:valid{
-    box-shadow: 2px 2px 2px black;
+    box-shadow: var(--valid-shadow);
 }
 
 #form-main h2{
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 #record-message h4 {
-    text-align: center;
+    text-align: var(--text-align);
     grid-column: span 2;
 }
