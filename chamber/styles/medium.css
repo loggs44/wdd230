@@ -1,4 +1,4 @@
-@media (max-width: 970px) and (min-width: 664px) {
+@media (max-width: 1185px) and (min-width: 664px) {
     nav {
         display: grid;
         grid-template-columns: 0.5fr 2fr;

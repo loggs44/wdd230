@@ -16,6 +16,7 @@
     <script src="scripts/hamburger-menu.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
     <script src="scripts/site-visits.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Playfair+Display&family=Ubuntu&display=swap" rel="stylesheet">
@@ -61,22 +62,19 @@
                 <li>07: <a href="lesson07/lazyload.html">Lazy Loading Example</a></li>
                 <li>08: <a href="lesson08/tablebuild.html">Table Building Example</a> | <a href="form.html">Form Example</a></li>
                 <li>09: <a href="lesson09/prophets.html">Prophets Page</a></li>
-                <!-- <li>10:<a href=""></a></li>
-                <li>11:<a href=""></a></li>
-                <li>12:<a href=""></a></li>
-                <li>13:<a href=""></a></li> -->
+                <li>10: <a href="lesson10/forecast.html">3-Day Forecast</a></li>
+                <!-- <li>11: <a href=""></a></li>
+                <li>12: <a href=""></a></li>
+                <li>13: <a href=""></a></li> -->
             </ul>
         </section>
 
         <section class="information">
           <h3>Information</h3>
-          <h5>Weather:</h5>
-          <div>
-              <p><span id="temperature">32</span>&deg;F</p>
-          </div>
-          <p>Wind Speed: <span id="windspeed">5</span> mph</p>
-          <br>
-          <p>Wind Chill: <span id="windchill">?</span>&deg;F</p>
+          <p>Rexburg, Idaho</p>
+          <p><img id="weather-icon" src="images/hail.jpg" alt="weather icon"></p>
+          <p id="weather-desc">Stormy</p>
+          <p id="weather-temp">-30&deg;F | 100 mph winds</p>
           <hr>
           <p>Visit Count: <span id="visitcount"></span></p>
         </section>

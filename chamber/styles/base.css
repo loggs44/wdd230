@@ -31,7 +31,7 @@ nav {
 }
 
 main {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -248,8 +248,7 @@ footer {
 /* Form CSS */
 .join{
     display: grid;    
-    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
-    /* grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   }
 
   .join > div{

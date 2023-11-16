@@ -1,5 +1,5 @@
 /* Large CSS */
-@media (min-width: 970px) {
+@media (min-width: 1185px) {
 	
     /* Nav Large View CSS */
     nav {
@@ -55,13 +55,14 @@
         position: relative;
         top: -5rem;
         left: 14rem;
-        transform: translate(-215%, 675%);
+        transform: translate(330%,-225%);
         padding: 10px 20px;
         border: none;
         cursor: pointer;
         border-radius: 5px;
         font-size: 16px;
     }
+
     #discover-sidebar{
         border-right: 5px solid var(--hover-background-color);
         padding: 1rem;

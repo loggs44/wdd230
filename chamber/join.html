@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Brooke Chamber of Commerce</title>
+    <title>Join the Story Brooke Chamber of Commerce</title>
     <meta name="description" content="Discover the Story Brooke Chamber of Commerce - Your gateway to local business support, networking, and community growth. Join us to connect, prosper, and thrive in Story Brooke.">
     <meta name="author" content="Logan Clark">
     <link rel="icon" href="images/favicon.ico">
@@ -38,21 +38,21 @@
         <section class="join">
             <div>
                 <form method="GET" action="thankyou.html">
-                    <label class="myinput">First Name*<input type="text" name="fname" required></label>
-                    <label class="myinput">Last Name*<input type="text" name="lname" required></label>
-                    <label class="myinput">Title<input type="text" name="title" pattern="[A-Za-z -]{7,}"></label>
+                    <label class="myinput">First Name*<input id="fname" type="text" name="fname" required></label>
+                    <label class="myinput">Last Name*<input type="text" name="lname" id="lname" required></label>
+                    <label class="myinput">Title<input type="text" name="title" id="title" pattern="[A-Za-z\s\-]{7,}"></label>
                     <label class="myinput">Email*<input type="email" name="email" required placeholder="example@mymail.com"></label>
                     <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required></label>
                     <label class="myinput">Business Name*<input type="text" name="bizname" required></label>
-                    <h3 class="membership">Membership Level</h3>
+                    <h3>Membership Level</h3>
                     <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
                     <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
                     <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
                     <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
                     <label class="myinput">Business Description<textarea name="description" cols="40"
                             rows="5"></textarea></label>
-                    <label><input id="currentdate" type="hidden" name="currentdate" value=""></label>
-                    <input class="mysubmit" type="submit" value="Join the Chamber!">
+                    <input id="timestamp" type="hidden" name="timestamp" value="">
+                    <button class="mysubmit">Join the Chamber!</button>
                 </form>
             </div>
             <div>
