@@ -19,6 +19,9 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="./scripts/forecast.js" defer></script>
+    <script src="scripts/meet-greet.js" defer></script>
 </head>
 <body>
     <header>
@@ -35,6 +38,8 @@
         </nav>
     </header>
     <main>
+        <section></section>
+        <p id="meetgreet">Join us for a meet and greet Wednesday night at 7:00 P.M. <button id="close-greet">X</button></p>
         <section id="welcome-card">
             <h1>Story Brooke Chamber of Commerce</h1>
             <button id="join-button" type="button">Join Now!</button>
@@ -52,14 +57,13 @@
         <div id="main-cards">
             <section id="weather">
                 <h3>Weather</h3>
-                <div>
-                    <h2><span id="temperature">32</span>&deg;F</h2>
-                </div>
-                <h2 id="weatherdesc">Clear</h2>
-                <hr>
-                <h4>Wind Speed: <span id="windspeed">5</span> mph</h4>
-                <h4>Wind Chill: <span id="windchill">?</span>&deg;F</h4>
-            </section>
+                <p><img id="weather-icon" alt="weather icon"></p>
+                <p id="weather-desc">Stormy</p>
+                <p id="weather-temp">-30&deg;F | 100 mph winds</p>
+                <section id="forecast">
+                    <h4>3-Day Forecast:</h4>
+                </section>
+              </section>
             <section id="upcoming-events-card">
                 <h3>Upcoming Events</h3>
                 <h4>Art Exhibition</h4>

@@ -81,6 +81,20 @@ nav a:hover {
     border: 1px solid white;
 }
 
+#meetgreet{
+    /* display: none; */
+    width: 100%;
+    background-color: var(--hover-background-color);
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+#close-greet{
+ float: right;
+}
+
 .menu-hide, .menu-show{
     display: none;
     background-color: #DDE6ED;
