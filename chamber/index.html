@@ -18,7 +18,7 @@
     <script src="scripts/hamburger-menu.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <!-- <script src="scripts/windchill.js" defer></script> -->
     <script src="scripts/weather.js" defer></script>
     <script src="./scripts/forecast.js" defer></script>
     <script src="scripts/meet-greet.js" defer></script>
@@ -29,7 +29,7 @@
             <img id="header-logo" src="images/logo.webp" alt="Chamber Logo">
             <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
             <ul id="nav-menu">
-                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join Us!</a></li>
@@ -41,7 +41,7 @@
         <p id="meetgreet">Join us for a meet and greet Wednesday night at 7:00 P.M. <button id="close-greet">X</button></p>
         <section id="welcome-card">
             <h1>Story Brooke Chamber of Commerce</h1>
-            <button id="join-button" type="button">Join Now!</button>
+            <button id="join-button" type="button"><a href="join.html">Join Now!</a></button>
             <picture>
                 <source media="(max-width: 400px)" srcset="images/wdd230-org-small.webp">
                 <source media="(max-width: 600px)" srcset="images/wdd230-org-medium.webp">
@@ -69,6 +69,7 @@
                 <p>Date: November 5, 2023</p>
                 <p>Time: 4:30 PM</p>
                 <p>Location: Art Gallery</p>
+                <p><img src="images/art_gallery.webp" alt="Art Gallery Photo" loading="lazy"></p>
             </section>
         </div>
 
@@ -76,17 +77,18 @@
 
         <div id="sub-cards">
             <section id="origin-card">
-                <h3>Orgin</h3>
+                <h3>Zagg</h3>
+                <p><img src="images/Zagg.webp" alt="Zagg Store Front" loading="lazy"></p>
+                <p>Zagg has been a faithful business providing excellent services to our community. Great phone protection.</p>
             </section>
             <section id="new-members-card">
-                <h3>New Members</h3>
-            </section>      
+                <h3>Action Motor Sports</h3>
+                <p><img src="images/actionmotorsports.webp" alt="Action Motor Sports" loading="lazy"></p>
+                <p>Action Motor Sports has 25% off on all ATV's and four wheelers. Check them out in our directory page.</p>            </section>      
             <section id="weekly-resturaunt-card">
-                <h3>Weekly Resuraunt</h3>
-            </section>
-            <section id="job-board-card">
-                <h3>Job Board</h3>
-            </section>
+                <h3>Pinecrest Golf</h3>
+                <p><img src="images/PinecrestGolf.webp" alt="Pinecrest Golf" loading="lazy"></p>
+                <p>Pinecrest is having some amazing deals on summer passes. Go check them out in our directory page.</p>            </section>
         </div>
 
         <section id="sponsers-card">
@@ -95,7 +97,7 @@
                 <source media="(max-width: 400px)" srcset="images/sponser-small.webp">
                 <source media="(max-width: 600px)" srcset="images/sponser-medium.webp">
                 <source media="(max-width: 960px)" srcset="images/sponser.webp"> 
-                <img src="images/sponser.webp" alt="Microsoft Sponsership">
+                <img src="images/sponser.webp" alt="Microsoft Sponsership" loading="lazy">
             </picture>
         </section>
     </main>
