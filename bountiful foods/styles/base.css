@@ -1,0 +1,221 @@
+body {
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+    color: #444444;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navigation CSS */
+nav {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    justify-content: center;
+    padding: 3rem 3rem 1rem 3rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #444444;
+}
+
+nav li {
+    display: block;
+    width: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 4rem;
+}
+
+nav a:hover {
+    color: #00d1cd;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+.menu-hide, .menu-show{
+    display: none;
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.menu-hide.showing, .menu-show.showing{
+    display: block;
+}
+
+.menu-hide {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.menu{
+    display: none;
+}
+
+.menu.showing{
+    display: flex;
+    grid-column: span 2;
+    grid-row: 2/3;
+    align-items: center;
+}
+
+/* Call to Action CSS */
+.cta {
+    cursor: pointer;
+    color: #444444;
+    font-size: small;
+    /* position: absolute;
+    top: calc(50% - 7%);
+    left: 50%;
+    transform: translate(-50%, -170%);*/
+    transition: top 0.2s;
+}
+
+header img {
+    max-width: 75%;
+}
+
+/* Main CSS */
+main {
+    max-width: 100%;
+    padding: 0 5rem 0 5rem;
+}
+
+main h2 {
+    background-color: #00d1cd;
+    margin: 0;
+}
+
+.coastal-info, #weatherCard, #forecastCard {
+    box-shadow: 0px 2px 4px #444444;
+}
+
+#orderInfo h2 {
+    text-decoration: underline;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+#forecastContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+  }
+
+/* Footer CSS */
+footer {
+    background-color: #444444;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.social-media {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.resource-attribution {
+    grid-column: -1/1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Order Form CSS */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #00d1cd;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Order Confirmation CSS */
+.order-confirmation {
+    color: #00d1cd;
+}
+
+ul {
+    list-style: none;
+}
+
+#outputArea {
+    margin-top: 20px;
+    border: 1px solid #444444;
+    padding: 20px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+#contactInfo {
+    margin-top: 20px;
+    color: #444444;
+}
+
+#reviewCTA {
+    margin-top: 20px;
+    color: #00d1cd;
+    font-weight: bold;
+}
+
+/* About Page CSS */
+.main-about h2 {
+    border-radius: 10px;
+}
+
+/* Footer CSS */

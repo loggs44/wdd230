@@ -1,0 +1,68 @@
+@media (max-width: 1250px) and (min-width: 626px) {
+    /* Nav Large View CSS */
+    nav {
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        justify-content: center;
+        padding: 3rem 3rem 1rem 3rem;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    .menu {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        padding-top: 3.3rem;
+    }
+
+    .menu-show, .menu-hide, .menu-show.showing, .menu-hide.showing{
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu.showing{
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    /* Call to Action CSS */
+    .cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -34%);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: medium;
+        color: #ffffff;
+    }
+
+    header img {
+        max-width: 70%;
+    }
+
+    /* Weather */
+    .weather-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    }
+
+    /* Footer CSS */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0rem 3rem 3rem 3rem;
+    }
+
+    #copywrite {
+        padding-top: 1rem;
+    }
+}

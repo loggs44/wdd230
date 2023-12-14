@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Drink Shop Informtaion page.">
+    <meta name="author" content="Logan Clark">
+    <meta property="og:title" content="Bountiful Drink Shop Informtaion page." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://loggs44.github.io/wdd230/" />
+    <meta property="og:image" content="https://loggs44.github.io/wdd230/images/profilepicture.JPG" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&family=Mooli&family=Nunito&family=Playfair+Display&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/order.js" defer></script>
+    <title>Bountiful Foods Drink Shop</title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="images/bountiful-logo.webp" alt="Bountiful Foods Logo">
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="active"><a href="#">Order</a></li>
+        </ul>
+    </nav>
+
+    <form id="drinkForm" method="GET" action="order_confirmation.html">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="fruit1">Select Fruit 1:</label>
+        <select id="fruit1" name="fruit1" required>
+        </select>
+
+        <label for="fruit2">Select Fruit 2:</label>
+        <select id="fruit2" name="fruit2" required>
+        </select>
+
+        <label for="fruit3">Select Fruit 3:</label>
+        <select id="fruit3" name="fruit3" required>
+        </select>
+
+        <label for="specialInstructions">Special Instructions:</label>
+        <textarea id="specialInstructions" name="specialInstructions"></textarea>
+
+        <p>Please note that payment is received when the drink is picked up.</p>
+
+        <button type="submit">Submit Order</button>
+    </form>
+
+    <footer>
+        <div class="resource-attribution">
+            <p>Resources/Attribution:</p>
+            <ul>
+                <li><a href="https://www.fruityvice.com/" target="_blank">www.fruityvice.com</a></li>
+                <li><a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></li>
+            </ul>
+            <p>&copy;<span id='currentyear'></span> Last Modified: <span id='lastmodified'></span></p>
+        </div>
+
+        <div class="social-media">
+            <p>Social Media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/i/flow/login" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact Information:</p>
+            <ul>
+                <li>Email: your.email@example.com</li>
+                <li>Phone: +1 (555) 123-4567</li>
+                <li>Address: 123 Main Street, Cityville, State, Country</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

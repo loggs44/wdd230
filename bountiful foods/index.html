@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Drink Shop Informtaion page.">
+    <meta name="author" content="Logan Clark">
+    <meta property="og:title" content="Bountiful Drink Shop Informtaion page." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://loggs44.github.io/wdd230/" />
+    <meta property="og:image" content="https://loggs44.github.io/wdd230/images/profilepicture.JPG" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&family=Mooli&family=Nunito&family=Playfair+Display&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/specialtydrinks.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <title>Bountiful Foods Drink Shop</title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="images/bountiful-logo.webp" alt="Bountiful Foods Logo">
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul class="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="cta">
+            <h1>Welcome to Bountiful Foods</h1>
+            <h2>THE PLACE FOR A SIP, A SNACK, AND A SMILE.</h2>
+            <a href="order.html" class="cta-btn">Order Now</a>
+        </section>
+        <img src="images/drink-background.webp" alt="Drink Background" >
+    </header>
+
+    <main>
+        <section class="coastal-info">
+            <h2>Carlsbad, Southern California</h2>
+            <p>Carlsbad is a charming coastal city in Southern California, known for its stunning beaches, mild climate, and vibrant community. With a mix of natural beauty and modern amenities, Carlsbad is a popular destination for both residents and visitors.</p>
+            <p>Explore the pristine sandy beaches, enjoy a variety of water activities, and take in breathtaking views of the Pacific Ocean. The city is also home to famous attractions such as Legoland California Resort and The Flower Fields.</p>
+            <p>Experience the laid-back atmosphere, delicious local cuisine, and the refreshing coastal breeze that makes Carlsbad a delightful place to live and visit.</p>
+        </section>
+
+        <section class="weather-card">
+            <div id="weatherCard">
+                <h2>Weather in Carlsbad</h2>
+                <p id="temperature">Loading...</p>
+                <p id="condition">Loading...</p>
+                <img src="weather-icon" alt="Weather Icon" id="weatherIcon" class="weather-icon">
+                <p id="humidity">Loading...</p>
+            </div>
+            
+            <div id="forecastCard">
+                <h2>Weather Forecast for Carlsbad</h2>
+                <div id="forecastContainer"></div>
+            </div>
+        </section>
+
+        <section class="drink-info-card">
+            <div id="orderInfo">
+                <h2>Your Order Information</h2>
+                <p>Total Number of Drinks: <span id="totalDrinks">0</span></p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="resource-attribution">
+            <p>Resources/Attribution:</p>
+            <ul>
+                <li><a href="https://www.fruityvice.com/" target="_blank">www.fruityvice.com</a></li>
+                <li><a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></li>
+            </ul>
+            <p>&copy;<span id='currentyear'></span> Last Modified: <span id='lastmodified'></span></p>
+        </div>
+
+        <div class="social-media">
+            <p>Social Media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/i/flow/login" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact Information:</p>
+            <ul>
+                <li>Email: your.email@example.com</li>
+                <li>Phone: +1 (555) 123-4567</li>
+                <li>Address: 123 Main Street, Cityville, State, Country</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

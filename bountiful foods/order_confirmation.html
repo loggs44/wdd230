@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Drink Shop Informtaion page.">
+    <meta name="author" content="Logan Clark">
+    <meta property="og:title" content="Bountiful Drink Shop Informtaion page." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://loggs44.github.io/wdd230/" />
+    <meta property="og:image" content="https://loggs44.github.io/wdd230/images/profilepicture.JPG" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&family=Mooli&family=Nunito&family=Playfair+Display&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/order-confirmation.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Bountiful Foods Drink Shop</title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="images/bountiful-logo.webp" alt="Bountiful Foods Logo">
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="active"><a href="#">Order</a></li>
+        </ul>
+    </nav>
+    <h1 class="order-confirmation">Order Confirmation</h1>
+    <main>
+        <div id="outputArea">
+            <p>Thank you for your order! Your order details:</p>
+    
+            <ul>
+                <li><strong>Name:</strong> <span id="outputName"></span></li>
+                <li><strong>Email:</strong> <span id="outputEmail"></span></li>
+                <li><strong>Phone:</strong> <span id="outputPhone"></span></li>
+                <li><strong>Fruit 1:</strong> <span id="outputFruit1"></span></li>
+                <li><strong>Fruit 2:</strong> <span id="outputFruit2"></span></li>
+                <li><strong>Fruit 3:</strong> <span id="outputFruit3"></span></li>
+                <li><strong>Special Instructions:</strong> <span id="outputInstructions"></span></li>
+                <li><strong>Order Date:</strong> <span id="orderDate"></span></li>
+            </ul>
+
+            <!-- <p>Total Nutritional Information:</p>
+            <ul id="totalNutrition">
+                <li><strong>Carbohydrates:</strong> <span id="totalCarbs"></span> grams</li>
+                <li><strong>Protein:</strong> <span id="totalProtein"></span> grams</li>
+                <li><strong>Fat:</strong> <span id="totalFat"></span> grams</li>
+                <li><strong>Sugar:</strong> <span id="totalSugar"></span> grams</li>
+                <li><strong>Calories:</strong> <span id="totalCalories"></span> kcal</li>
+            </ul> -->
+        </div>
+
+        <div id="contactInfo">
+            <p>If you have any questions or issues with your order, please contact us at <strong>support@BountifulFoods.com</strong>.</p>
+        </div>
+
+        <div id="reviewCTA">
+            <p>Enjoyed your experience? Leave a review on social media and let others know!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="resource-attribution">
+            <p>Resources/Attribution:</p>
+            <ul>
+                <li><a href="https://www.fruityvice.com/" target="_blank">www.fruityvice.com</a></li>
+                <li><a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></li>
+            </ul>
+            <p>&copy;<span id='currentyear'></span> Last Modified: <span id='lastmodified'></span></p>
+        </div>
+
+        <div class="social-media">
+            <p>Social Media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/i/flow/login" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact Information:</p>
+            <ul>
+                <li>Email: your.email@example.com</li>
+                <li>Phone: +1 (555) 123-4567</li>
+                <li>Address: 123 Main Street, Cityville, State, Country</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

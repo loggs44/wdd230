@@ -30,9 +30,9 @@ function showForecast(forecasts){
         .reduce((prev, next) => prev.main.temp < next.main.temp ? prev : next)        
     )    
     console.log(highTemps)
-    console.log(lowTemps)
+    console.log(lowTemps) 
     // Add the forecast information to the HTML document
-    weatherElt = document.querySelector("main div section")
+    weatherElt = document.querySelector("main div #forecast")
     for (let i=0; i < 3; i++){
         let newsection = document.createElement("section");
         newsection.style.display = "inline-block";
